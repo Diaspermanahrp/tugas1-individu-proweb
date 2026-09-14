@@ -1,0 +1,51 @@
+/* Mengatur seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+/* Judul */
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+/* Bentuk form */
+form {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Input dan textarea */
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+/* Textarea */
+textarea {
+    height: 80px;
+}
+
+/* Tombol kirim */
+input[type="submit"] {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Saat mouse diarahkan ke tombol */
+input[type="submit"]:hover {
+    background-color: blue;
+}
