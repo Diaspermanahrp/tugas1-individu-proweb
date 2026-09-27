@@ -1,0 +1,97 @@
+/* Mengatur semua elemen */
+* {
+    box-sizing: border-box;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    padding: 20px 0;
+}
+
+
+/* Logo */
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* HERO */
+
+.hero {
+    padding: 70px 0;
+}
+
+
+/* Judul */
+
+.hero h3 {
+    font-size: 40px;
+    font-style: italic;
+}
+
+
+.hero h1 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/* Paragraf */
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+
+/* Gambar */
+
+.gambar {
+    width: 100%;
+}
+
+
+/* BAGIAN TUGAS */
+
+.tugas {
+    padding: 60px 0;
+    background-color: #f5f5f5;
+}
+
+
+/* Card */
+
+.card {
+    margin-top: 20px;
+    height: 100%;
+    box-shadow: 0 3px 10px #ddd;
+}
+
+
+/* Saat dibuka di HP */
+
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 40px 20px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero h3 {
+        font-size: 30px;
+    }
+
+    .gambar {
+        margin-top: 30px;
+    }
+
+}

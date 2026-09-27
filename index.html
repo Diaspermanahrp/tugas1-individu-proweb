@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Supaya website responsive di HP -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Proweb</title>
+
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- CSS sendiri -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white">
+
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand logo" href="#">
+                Proweb
+            </a>
+
+            <!-- Tombol menu HP -->
+            <button
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            data-bs-toggle="dropdown">
+
+                            Tutorial
+
+                        </a>
+
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    HTML
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    CSS
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    JavaScript
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    PHP
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    MySQL
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Profil
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Hubungi
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <button class="btn btn-outline-success">
+                            Daftar
+                        </button>
+                    </li>
+
+                    <li class="nav-item ms-2">
+                        <button class="btn btn-primary">
+                            Masuk
+                        </button>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <!-- Bagian kiri -->
+                <div class="col-md-6">
+
+                    <h3>Hai!</h3>
+
+                    <h1>
+                        Selamat Datang di Proweb
+                    </h1>
+
+                    <p>
+                        Belajar pemrograman web mulai dari
+                        HTML, CSS, JavaScript, PHP dan MySQL.
+                    </p>
+
+                    <button class="btn btn-success">
+                        Mulai Sekarang
+                    </button>
+
+                </div>
+
+
+                <!-- Bagian kanan -->
+                <div class="col-md-6">
+
+                    <img
+                        src="images.jfif"
+                        class="gambar"
+                        alt="Belajar pemrograman">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CARD TUGAS -->
+    <section class="tugas">
+
+        <div class="container">
+
+            <h2 class="text-center">
+                Tugas Saya
+            </h2>
+
+            <p class="text-center">
+                Pilih tugas yang ingin dilihat
+            </p>
+
+
+            <div class="row">
+
+
+                <!-- CARD TUGAS 1 -->
+                <div class="col-md-4">
+
+                    <div class="card">
+
+                        <div class="card-body">
+
+                            <h5>
+                                Tugas 1
+                            </h5>
+
+                            <p>
+                                Website tugas pertama.
+                            </p>
+
+                            <a
+                                href="tugas1.html"
+                                class="btn btn-success">
+
+                                Lihat Tugas
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD TUGAS 2 -->
+                <div class="col-md-4">
+
+                    <div class="card">
+
+                        <div class="card-body">
+
+                            <h5>
+                                Tugas 2
+                            </h5>
+
+                            <p>
+                                Website tugas kedua.
+                            </p>
+
+                            <a
+                                href="tugas2.html"
+                                class="btn btn-success">
+
+                                Lihat Tugas
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD TUGAS 3 -->
+                <div class="col-md-4">
+
+                    <div class="card">
+
+                        <div class="card-body">
+
+                            <h5>
+                                Tugas 3
+                            </h5>
+
+                            <p>
+                                Website tugas ketiga.
+                            </p>
+
+                            <a
+                                href="tugas3.html"
+                                class="btn btn-success">
+
+                                Lihat Tugas
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- JavaScript Bootstrap -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>
