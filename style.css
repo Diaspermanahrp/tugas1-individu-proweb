@@ -94,10 +94,27 @@
         margin-top: 30px;
     }
 
-    .navbar .btn {
-        display:block;
+
+    /* MENU NAVBAR DI HP */
+    .navbar-nav {
         width: 100%;
-        margin-bottom: 5px;
     }
+
+    .navbar-nav .nav-item {
+        width: 100%;
+    }
+
+
+    /* TOMBOL DAFTAR DAN MASUK */
+    .navbar-nav .btn {
+        width: 100%;
+        display: block;
+    }
+
+
+    /* Menghilangkan jarak ms-2 pada tombol Masuk */
+    .navbar-nav .nav-item.ms-2 {
+        margin-left: 0 !important;
+    }
+
 }
-    
