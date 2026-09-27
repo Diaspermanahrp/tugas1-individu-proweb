@@ -93,14 +93,11 @@
     .gambar {
         margin-top: 30px;
     }
-    /* TOMBOL DAFTAR DAN MASUK */
 
-.auth-buttons {
-    width: 100%;
+    .navbar .btn {
+        display:block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
 }
-
-.auth-buttons .btn {
-    display: block;
-    width: 100%;
-    margin-bottom: 5px;
-}
+    
