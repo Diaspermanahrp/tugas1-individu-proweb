@@ -106,15 +106,18 @@
 
 
     /* TOMBOL DAFTAR DAN MASUK */
-    .navbar-nav .btn {
-        width: 100%;
-        display: block;
-    }
+.navbar-nav .btn {
+    width: 100%;
+    display: block;
+}
 
+/* Jarak antara Daftar dan Masuk */
+.navbar-nav .btn-outline-success {
+    margin-bottom: 8px;
+}
 
-    /* Menghilangkan jarak ms-2 pada tombol Masuk */
-    .navbar-nav .nav-item.ms-2 {
-        margin-left: 0 !important;
-    }
-
+/* Hilangkan margin Bootstrap ms-2 */
+.navbar-nav .nav-item.ms-2 {
+    margin-left: 0 !important;
+}
 }
